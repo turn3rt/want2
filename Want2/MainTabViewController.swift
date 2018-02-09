@@ -50,6 +50,8 @@ class MainTabViewController: UITabBarController {
 
         self.view.insertSubview(centerButton, aboveSubview: self.tabBar)
         
+        self.selectedViewController = self.viewControllers?[2]
+        
     }
         
     override func viewDidLayoutSubviews() {

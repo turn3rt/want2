@@ -20,11 +20,11 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="asj-Jo-Uio"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="4cm-VT-o9c"/>
+                    <navigationItem key="navigationItem" title="Home" id="yhA-8X-VNk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KAe-Ut-0S7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="870" y="-315"/>
+            <point key="canvasLocation" x="1585" y="-316"/>
         </scene>
         <!--Explore-->
         <scene sceneID="eEy-ub-xcF">
@@ -55,7 +55,7 @@
                     <connections>
                         <segue destination="Eu7-zO-4DS" kind="relationship" relationship="viewControllers" id="suT-NQ-frn"/>
                         <segue destination="44R-qt-lcL" kind="relationship" relationship="viewControllers" id="6l7-8q-6L6"/>
-                        <segue destination="2FR-Im-5DS" kind="relationship" relationship="viewControllers" id="hjy-s0-8RM"/>
+                        <segue destination="a5b-Ms-xlE" kind="relationship" relationship="viewControllers" id="hjy-s0-8RM"/>
                         <segue destination="eKO-8O-G3b" kind="relationship" relationship="viewControllers" id="Jwt-6J-hxY"/>
                         <segue destination="Bil-UJ-cYe" kind="relationship" relationship="viewControllers" id="b3Q-Fz-gx9"/>
                     </connections>
@@ -90,7 +90,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tKH-JF-nOY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" image="explore.png" id="EU1-ob-jWr"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="man-user.png" id="EU1-ob-jWr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tGO-2S-ia3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,9 +112,33 @@
             </objects>
             <point key="canvasLocation" x="870" y="-1649"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="DeD-nY-OK0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a5b-Ms-xlE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="4cm-VT-o9c"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="K2Q-yO-Ybe">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.58823529409999997" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2FR-Im-5DS" kind="relationship" relationship="rootViewController" id="lJP-3i-iPh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g4g-oV-Z2m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868.79999999999995" y="-315.51724137931035"/>
+        </scene>
     </scenes>
     <resources>
         <image name="explore.png" width="32" height="32"/>
+        <image name="man-user.png" width="32" height="32"/>
         <image name="multiple-users-silhouette.png" width="32" height="32"/>
         <image name="settings-gears.png" width="32" height="32"/>
     </resources>

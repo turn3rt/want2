@@ -34,6 +34,8 @@
 		B323B4BF202D08A400171E82 /* explore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B323B4AB202D08A300171E82 /* explore@2x.png */; };
 		B323B4C3202D0B2200171E82 /* LogoTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = B323B4C2202D0B2200171E82 /* LogoTransparent.png */; };
 		B372F53D202D0D4700DA22E9 /* LogoTransparent_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B372F53C202D0D4700DA22E9 /* LogoTransparent_small@2x.png */; };
+		B372F53F202D2CDB00DA22E9 /* user-silhouette@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B372F53E202D2CDB00DA22E9 /* user-silhouette@2x.png */; };
+		B372F541202D2DD900DA22E9 /* man-user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B372F540202D2DD800DA22E9 /* man-user@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		B323B4AB202D08A300171E82 /* explore@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "explore@2x.png"; sourceTree = "<group>"; };
 		B323B4C2202D0B2200171E82 /* LogoTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoTransparent.png; sourceTree = "<group>"; };
 		B372F53C202D0D4700DA22E9 /* LogoTransparent_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LogoTransparent_small@2x.png"; sourceTree = "<group>"; };
+		B372F53E202D2CDB00DA22E9 /* user-silhouette@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-silhouette@2x.png"; sourceTree = "<group>"; };
+		B372F540202D2DD800DA22E9 /* man-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "man-user@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 				B323B4A1202D08A300171E82 /* settings-gears@2x.png */,
 				B323B4A2202D08A300171E82 /* capitalizing_on_the_economic_potential_of_foreign_entrepreneurs_feature.png */,
 				B323B4A3202D08A300171E82 /* multiple-users-silhouette@2x.png */,
+				B372F540202D2DD800DA22E9 /* man-user@2x.png */,
+				B372F53E202D2CDB00DA22E9 /* user-silhouette@2x.png */,
 				B323B4A4202D08A300171E82 /* profile-default-male@2x.png */,
 				B323B4A5202D08A300171E82 /* beachygirl.png */,
 				B323B4A6202D08A300171E82 /* settings-work-tool@2x.png */,
@@ -199,6 +205,7 @@
 			files = (
 				B323B4B2202D08A400171E82 /* otherGirl.jpg in Resources */,
 				B323B4B4202D08A400171E82 /* girl.jpg in Resources */,
+				B372F53F202D2CDB00DA22E9 /* user-silhouette@2x.png in Resources */,
 				B323B4AD202D08A400171E82 /* home@2x.png in Resources */,
 				B323B4B9202D08A400171E82 /* beachygirl.png in Resources */,
 				B323B4AC202D08A400171E82 /* arrow-down-sign-to-navigate.png in Resources */,
@@ -213,6 +220,7 @@
 				B323B4B7202D08A400171E82 /* multiple-users-silhouette@2x.png in Resources */,
 				B323B4BE202D08A400171E82 /* Baby.jpg in Resources */,
 				B323B4B5202D08A400171E82 /* settings-gears@2x.png in Resources */,
+				B372F541202D2DD900DA22E9 /* man-user@2x.png in Resources */,
 				B323B4BA202D08A400171E82 /* settings-work-tool@2x.png in Resources */,
 				B323B4B3202D08A400171E82 /* Sally.jpg in Resources */,
 				B323B4B0202D08A400171E82 /* images.jpeg in Resources */,
