@@ -50,7 +50,7 @@ class MainTabViewController: UITabBarController {
 
         self.view.insertSubview(centerButton, aboveSubview: self.tabBar)
         
-        self.selectedViewController = self.viewControllers?[2]
+        self.selectedViewController = self.viewControllers?[4] // defaults opening to profile view controller
         
     }
         

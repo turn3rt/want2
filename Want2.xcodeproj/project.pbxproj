@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B30C865E2030E6E4004D654F /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C865A2030E6E3004D654F /* UIButtonX.swift */; };
+		B30C865F2030E6E4004D654F /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C865B2030E6E3004D654F /* UILabelX.swift */; };
+		B30C86602030E6E4004D654F /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C865C2030E6E3004D654F /* UIImageViewX.swift */; };
+		B30C86612030E6E4004D654F /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C865D2030E6E3004D654F /* UIViewX.swift */; };
+		B30C86632030E9E2004D654F /* unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B30C86622030E9E1004D654F /* unnamed.jpg */; };
+		B30C86672030EC3A004D654F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C86662030EC3A004D654F /* ProfileVC.swift */; };
+		B30C86692030ECF0004D654F /* UserProfileTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C86682030ECF0004D654F /* UserProfileTVCell.swift */; };
+		B30C866D20310166004D654F /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C866C20310166004D654F /* HeaderCell.swift */; };
+		B30C866F2031369C004D654F /* AgendaTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C866E2031369C004D654F /* AgendaTVCell.swift */; };
+		B30C867320323C9F004D654F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30C867220323C9E004D654F /* GoogleService-Info.plist */; };
 		B323B482202CE7F000171E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323B481202CE7F000171E82 /* AppDelegate.swift */; };
 		B323B484202CE7F000171E82 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323B483202CE7F000171E82 /* MainTabViewController.swift */; };
 		B323B487202CE7F000171E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B323B485202CE7F000171E82 /* Main.storyboard */; };
@@ -39,6 +49,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B30C865A2030E6E3004D654F /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		B30C865B2030E6E3004D654F /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		B30C865C2030E6E3004D654F /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		B30C865D2030E6E3004D654F /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		B30C86622030E9E1004D654F /* unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unnamed.jpg; sourceTree = "<group>"; };
+		B30C86662030EC3A004D654F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		B30C86682030ECF0004D654F /* UserProfileTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTVCell.swift; sourceTree = "<group>"; };
+		B30C866C20310166004D654F /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		B30C866E2031369C004D654F /* AgendaTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaTVCell.swift; sourceTree = "<group>"; };
+		B30C867220323C9E004D654F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B323B47E202CE7F000171E82 /* Want2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Want2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B323B481202CE7F000171E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B323B483202CE7F000171E82 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +103,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B30C86592030E6E3004D654F /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				B30C865A2030E6E3004D654F /* UIButtonX.swift */,
+				B30C865B2030E6E3004D654F /* UILabelX.swift */,
+				B30C865C2030E6E3004D654F /* UIImageViewX.swift */,
+				B30C865D2030E6E3004D654F /* UIViewX.swift */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		B30C866A2030ED15004D654F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B30C86662030EC3A004D654F /* ProfileVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B30C866B2030ED1C004D654F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B30C86682030ECF0004D654F /* UserProfileTVCell.swift */,
+				B30C866C20310166004D654F /* HeaderCell.swift */,
+				B30C866E2031369C004D654F /* AgendaTVCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B323B475202CE7F000171E82 = {
 			isa = PBXGroup;
 			children = (
@@ -103,13 +152,17 @@
 			isa = PBXGroup;
 			children = (
 				B323B481202CE7F000171E82 /* AppDelegate.swift */,
-				B323B493202CF0E500171E82 /* Helper.swift */,
 				B323B483202CE7F000171E82 /* MainTabViewController.swift */,
+				B323B493202CF0E500171E82 /* Helper.swift */,
 				B323B485202CE7F000171E82 /* Main.storyboard */,
+				B30C866A2030ED15004D654F /* Controllers */,
+				B30C866B2030ED1C004D654F /* Models */,
+				B30C86592030E6E3004D654F /* Designables */,
 				B323B497202D08A300171E82 /* Icons */,
 				B323B488202CE7F000171E82 /* Assets.xcassets */,
 				B323B48A202CE7F000171E82 /* LaunchScreen.storyboard */,
 				B323B48D202CE7F000171E82 /* Info.plist */,
+				B30C867220323C9E004D654F /* GoogleService-Info.plist */,
 			);
 			path = Want2;
 			sourceTree = "<group>";
@@ -126,6 +179,7 @@
 				B323B49D202D08A300171E82 /* Screen Shot 2017-12-11 at 7.17.02 PM.png */,
 				B323B49E202D08A300171E82 /* otherGirl.jpg */,
 				B323B49F202D08A300171E82 /* Sally.jpg */,
+				B30C86622030E9E1004D654F /* unnamed.jpg */,
 				B323B4A0202D08A300171E82 /* girl.jpg */,
 				B323B4A1202D08A300171E82 /* settings-gears@2x.png */,
 				B323B4A2202D08A300171E82 /* capitalizing_on_the_economic_potential_of_foreign_entrepreneurs_feature.png */,
@@ -216,10 +270,12 @@
 				B372F53D202D0D4700DA22E9 /* LogoTransparent_small@2x.png in Resources */,
 				B323B4C3202D0B2200171E82 /* LogoTransparent.png in Resources */,
 				B323B4B8202D08A400171E82 /* profile-default-male@2x.png in Resources */,
+				B30C867320323C9F004D654F /* GoogleService-Info.plist in Resources */,
 				B323B4B6202D08A400171E82 /* capitalizing_on_the_economic_potential_of_foreign_entrepreneurs_feature.png in Resources */,
 				B323B4B7202D08A400171E82 /* multiple-users-silhouette@2x.png in Resources */,
 				B323B4BE202D08A400171E82 /* Baby.jpg in Resources */,
 				B323B4B5202D08A400171E82 /* settings-gears@2x.png in Resources */,
+				B30C86632030E9E2004D654F /* unnamed.jpg in Resources */,
 				B372F541202D2DD900DA22E9 /* man-user@2x.png in Resources */,
 				B323B4BA202D08A400171E82 /* settings-work-tool@2x.png in Resources */,
 				B323B4B3202D08A400171E82 /* Sally.jpg in Resources */,
@@ -239,8 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30C86692030ECF0004D654F /* UserProfileTVCell.swift in Sources */,
+				B30C865E2030E6E4004D654F /* UIButtonX.swift in Sources */,
+				B30C86672030EC3A004D654F /* ProfileVC.swift in Sources */,
 				B323B484202CE7F000171E82 /* MainTabViewController.swift in Sources */,
+				B30C865F2030E6E4004D654F /* UILabelX.swift in Sources */,
+				B30C86602030E6E4004D654F /* UIImageViewX.swift in Sources */,
+				B30C866D20310166004D654F /* HeaderCell.swift in Sources */,
 				B323B482202CE7F000171E82 /* AppDelegate.swift in Sources */,
+				B30C86612030E6E4004D654F /* UIViewX.swift in Sources */,
+				B30C866F2031369C004D654F /* AgendaTVCell.swift in Sources */,
 				B323B494202CF0E500171E82 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
