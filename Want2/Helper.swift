@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
+//global vars
+var verificationID = String()
+let mainTabController = MainTabViewController()
+
 class Helper{
    
     

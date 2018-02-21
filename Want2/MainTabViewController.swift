@@ -11,13 +11,16 @@ import UIKit
 class MainTabViewController: UITabBarController {
     
     
-    let centerButton = UIButton.init(type: .custom)
+    var centerButton = UIButton.init(type: .custom)
     let helper = Helper()
     
     var deviceModel = "unknown"
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
         
         if UIDevice().userInterfaceIdiom == .phone {
             switch UIScreen.main.nativeBounds.height {
