@@ -13,16 +13,8 @@ class ActivityTVCell: UITableViewCell {
     @IBOutlet weak var hostName: UILabel!
     @IBOutlet weak var activityName: UILabel!
     @IBOutlet weak var location: UILabel!
+    @IBOutlet weak var time: UILabel!
     @IBOutlet weak var distance: UILabel!
-    @IBOutlet weak var privacyicon: UIImageView!
-    @IBOutlet weak var activityImage: UIImageViewX!
-
-
-
-    
-
-
-    
-    
+    @IBOutlet weak var hostImage: UIImageViewX!
 
 }

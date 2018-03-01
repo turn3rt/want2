@@ -51,6 +51,10 @@
 		B3A6395D2037459600FC767B /* PhoneAuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6395C2037459600FC767B /* PhoneAuthVC.swift */; };
 		B3A6395F2037576B00FC767B /* ActivityTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6395E2037576B00FC767B /* ActivityTVCell.swift */; };
 		B3A6396120375C2C00FC767B /* HotItemsTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6396020375C2C00FC767B /* HotItemsTVController.swift */; };
+		B3FEB36C20488A2F00BC04A6 /* ExploreTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEB36B20488A2F00BC04A6 /* ExploreTVController.swift */; };
+		B3FEB36E2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEB36D2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift */; };
+		B3FEB3712048AD6A00BC04A6 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEB3702048AD6A00BC04A6 /* Activity.swift */; };
+		B3FEB3732048BD7800BC04A6 /* CreateEvent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FEB3722048BD7800BC04A6 /* CreateEvent.storyboard */; };
 		BBA01F3CD129F78FEEEC08F9 /* Pods_Want2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F04AE27B24F5803E00B9E0 /* Pods_Want2.framework */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +109,10 @@
 		B3A6395C2037459600FC767B /* PhoneAuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthVC.swift; sourceTree = "<group>"; };
 		B3A6395E2037576B00FC767B /* ActivityTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTVCell.swift; sourceTree = "<group>"; };
 		B3A6396020375C2C00FC767B /* HotItemsTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotItemsTVController.swift; sourceTree = "<group>"; };
+		B3FEB36B20488A2F00BC04A6 /* ExploreTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTVController.swift; sourceTree = "<group>"; };
+		B3FEB36D2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityWithPromoPicTVCell.swift; sourceTree = "<group>"; };
+		B3FEB3702048AD6A00BC04A6 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		B3FEB3722048BD7800BC04A6 /* CreateEvent.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateEvent.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +154,7 @@
 				B3A6396020375C2C00FC767B /* HotItemsTVController.swift */,
 				B3A6395C2037459600FC767B /* PhoneAuthVC.swift */,
 				B371B787203779B400B7BC09 /* EventDetailVC.swift */,
+				B3FEB36B20488A2F00BC04A6 /* ExploreTVController.swift */,
 				B358A3C720373CCB008C9FBC /* CreateAccountVC.swift */,
 			);
 			path = Controllers;
@@ -154,10 +163,8 @@
 		B30C866B2030ED1C004D654F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B30C86682030ECF0004D654F /* UserProfileTVCell.swift */,
-				B30C866C20310166004D654F /* HeaderCell.swift */,
-				B3A6395E2037576B00FC767B /* ActivityTVCell.swift */,
-				B30C866E2031369C004D654F /* AgendaTVCell.swift */,
+				B3FEB3702048AD6A00BC04A6 /* Activity.swift */,
+				B3FEB36F2048AD4700BC04A6 /* TV Cell Models */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,6 +195,7 @@
 				B323B483202CE7F000171E82 /* MainTabViewController.swift */,
 				B323B493202CF0E500171E82 /* Helper.swift */,
 				B323B485202CE7F000171E82 /* Main.storyboard */,
+				B3FEB3722048BD7800BC04A6 /* CreateEvent.storyboard */,
 				B30C866A2030ED15004D654F /* Controllers */,
 				B30C866B2030ED1C004D654F /* Models */,
 				B30C86592030E6E3004D654F /* Designables */,
@@ -229,6 +237,18 @@
 				B323B4AB202D08A300171E82 /* explore@2x.png */,
 			);
 			path = Icons;
+			sourceTree = "<group>";
+		};
+		B3FEB36F2048AD4700BC04A6 /* TV Cell Models */ = {
+			isa = PBXGroup;
+			children = (
+				B30C86682030ECF0004D654F /* UserProfileTVCell.swift */,
+				B30C866C20310166004D654F /* HeaderCell.swift */,
+				B3FEB36D2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift */,
+				B3A6395E2037576B00FC767B /* ActivityTVCell.swift */,
+				B30C866E2031369C004D654F /* AgendaTVCell.swift */,
+			);
+			path = "TV Cell Models";
 			sourceTree = "<group>";
 		};
 		CC007C933A6D5A877B7DCBD5 /* Frameworks */ = {
@@ -316,6 +336,7 @@
 				B323B48C202CE7F000171E82 /* LaunchScreen.storyboard in Resources */,
 				B323B4BB202D08A400171E82 /* target@2x.png in Resources */,
 				B323B489202CE7F000171E82 /* Assets.xcassets in Resources */,
+				B3FEB3732048BD7800BC04A6 /* CreateEvent.storyboard in Resources */,
 				B372F53D202D0D4700DA22E9 /* LogoTransparent_small@2x.png in Resources */,
 				B323B4C3202D0B2200171E82 /* LogoTransparent.png in Resources */,
 				B323B4B8202D08A400171E82 /* profile-default-male@2x.png in Resources */,
@@ -413,9 +434,12 @@
 				B30C865F2030E6E4004D654F /* UILabelX.swift in Sources */,
 				B30C86602030E6E4004D654F /* UIImageViewX.swift in Sources */,
 				B3A6396120375C2C00FC767B /* HotItemsTVController.swift in Sources */,
+				B3FEB3712048AD6A00BC04A6 /* Activity.swift in Sources */,
 				B30C866D20310166004D654F /* HeaderCell.swift in Sources */,
 				B323B482202CE7F000171E82 /* AppDelegate.swift in Sources */,
 				B3A6395F2037576B00FC767B /* ActivityTVCell.swift in Sources */,
+				B3FEB36E2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift in Sources */,
+				B3FEB36C20488A2F00BC04A6 /* ExploreTVController.swift in Sources */,
 				B371B788203779B400B7BC09 /* EventDetailVC.swift in Sources */,
 				B30C86612030E6E4004D654F /* UIViewX.swift in Sources */,
 				B30C866F2031369C004D654F /* AgendaTVCell.swift in Sources */,
