@@ -9,9 +9,7 @@
 import UIKit
 
 class ProfileTVC: UITableViewController {
-    
-    //test for github
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
 
