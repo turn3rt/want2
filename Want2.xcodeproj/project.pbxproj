@@ -51,6 +51,7 @@
 		B3A6395D2037459600FC767B /* PhoneAuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6395C2037459600FC767B /* PhoneAuthVC.swift */; };
 		B3A6395F2037576B00FC767B /* ActivityTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6395E2037576B00FC767B /* ActivityTVCell.swift */; };
 		B3A6396120375C2C00FC767B /* HotItemsTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6396020375C2C00FC767B /* HotItemsTVController.swift */; };
+		B3CB6112204929F400942DAC /* list-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3CB6111204929F300942DAC /* list-2@2x.png */; };
 		B3FEB36C20488A2F00BC04A6 /* ExploreTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEB36B20488A2F00BC04A6 /* ExploreTVController.swift */; };
 		B3FEB36E2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEB36D2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift */; };
 		B3FEB3712048AD6A00BC04A6 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEB3702048AD6A00BC04A6 /* Activity.swift */; };
@@ -110,6 +111,7 @@
 		B3A6395C2037459600FC767B /* PhoneAuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthVC.swift; sourceTree = "<group>"; };
 		B3A6395E2037576B00FC767B /* ActivityTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTVCell.swift; sourceTree = "<group>"; };
 		B3A6396020375C2C00FC767B /* HotItemsTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotItemsTVController.swift; sourceTree = "<group>"; };
+		B3CB6111204929F300942DAC /* list-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-2@2x.png"; sourceTree = "<group>"; };
 		B3FEB36B20488A2F00BC04A6 /* ExploreTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTVController.swift; sourceTree = "<group>"; };
 		B3FEB36D2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityWithPromoPicTVCell.swift; sourceTree = "<group>"; };
 		B3FEB3702048AD6A00BC04A6 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				B3FEB3742048D4A500BC04A6 /* list@2x.png */,
+				B3CB6111204929F300942DAC /* list-2@2x.png */,
 				B372F53C202D0D4700DA22E9 /* LogoTransparent_small@2x.png */,
 				B323B498202D08A300171E82 /* arrow-down-sign-to-navigate.png */,
 				B323B499202D08A300171E82 /* home@2x.png */,
@@ -355,6 +358,7 @@
 				B323B4B3202D08A400171E82 /* Sally.jpg in Resources */,
 				B323B4B0202D08A400171E82 /* images.jpeg in Resources */,
 				B323B4B1202D08A400171E82 /* Screen Shot 2017-12-11 at 7.17.02 PM.png in Resources */,
+				B3CB6112204929F400942DAC /* list-2@2x.png in Resources */,
 				B323B4BF202D08A400171E82 /* explore@2x.png in Resources */,
 				B323B487202CE7F000171E82 /* Main.storyboard in Resources */,
 				B323B4BD202D08A400171E82 /* Default-avatar@2x.jpg in Resources */,

@@ -28,23 +28,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="329" id="H5L-Pt-pPP">
-                                <rect key="frame" x="0.0" y="28" width="375" height="329"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="82" id="H5L-Pt-pPP">
+                                <rect key="frame" x="0.0" y="28" width="375" height="82"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H5L-Pt-pPP" id="duF-sj-8TC">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="328.66666666666669"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="81.666666666666671"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Homework" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fax-5i-Z0i">
-                                            <rect key="frame" x="16" y="11" width="185" height="42"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Homework" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fax-5i-Z0i">
+                                            <rect key="frame" x="16" y="11" width="154" height="42"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="42" id="t1A-TG-au3"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="NO4-Qd-0j5">
-                                            <rect key="frame" x="16" y="61" width="375" height="40"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NO4-Qd-0j5">
+                                            <rect key="frame" x="16" y="45" width="218" height="29"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="40" id="rMa-2z-u9T"/>
+                                                <constraint firstAttribute="height" constant="22" id="Qtu-Pu-7Cd"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
                                             <nil key="textColor"/>
@@ -157,7 +159,7 @@
                                     <constraint firstAttribute="width" constant="36" id="Ds7-8f-NFC"/>
                                     <constraint firstAttribute="height" constant="36" id="gBU-r7-1jK"/>
                                 </constraints>
-                                <state key="normal" image="list.png"/>
+                                <state key="normal" image="list-2.png"/>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xsf-hD-Juw">
                                 <rect key="frame" x="0.0" y="679" width="375" height="50"/>
@@ -216,7 +218,7 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                        <real key="value" value="3"/>
+                                        <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetY">
                                         <real key="value" value="0.0"/>
@@ -1252,7 +1254,7 @@
         <image name="Sally.jpg" width="3024" height="4032"/>
         <image name="explore.png" width="32" height="32"/>
         <image name="girl.jpg" width="500" height="750"/>
-        <image name="list.png" width="32" height="32"/>
+        <image name="list-2.png" width="32" height="32"/>
         <image name="man-user.png" width="32" height="32"/>
         <image name="multiple-users-silhouette.png" width="32" height="32"/>
         <image name="otherGirl.jpg" width="736" height="1146"/>
