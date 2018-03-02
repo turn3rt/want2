@@ -32,12 +32,14 @@ class ExploreTVController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 100
     }
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.row % 2 == 0 && indexPath.row != 2 && indexPath.row != 6 { //if indexpath divided by 2's remainder is = 0, indexpath is even
+        let n = Int(arc4random_uniform(2))
+
+        if n % 2 == 0 { //if indexpath divided by 2's remainder is = 0, indexpath is even
             let cell = tableView.dequeueReusableCell(withIdentifier: "ActivityWithPromoPicTVCell", for: indexPath)
             return cell
         }

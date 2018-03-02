@@ -64,7 +64,7 @@ class MainTabViewController: UITabBarController {
         if deviceModel == "iPhone X"{
            heightForCenterButton = self.view.bounds.height - 128
         } else {
-            heightForCenterButton = self.view.bounds.height - 80
+            heightForCenterButton = self.view.bounds.height - 92
         }
         
         centerButton.frame = CGRect.init(x: self.tabBar.center.x - 40, y: heightForCenterButton, width: 80, height: 80) //takes cgfloat

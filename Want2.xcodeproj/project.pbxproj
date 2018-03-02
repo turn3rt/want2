@@ -44,7 +44,7 @@
 		B323B4BF202D08A400171E82 /* explore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B323B4AB202D08A300171E82 /* explore@2x.png */; };
 		B323B4C3202D0B2200171E82 /* LogoTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = B323B4C2202D0B2200171E82 /* LogoTransparent.png */; };
 		B358A3C820373CCB008C9FBC /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B358A3C720373CCB008C9FBC /* CreateAccountVC.swift */; };
-		B371B788203779B400B7BC09 /* EventDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B371B787203779B400B7BC09 /* EventDetailVC.swift */; };
+		B371B788203779B400B7BC09 /* HomeActivityDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B371B787203779B400B7BC09 /* HomeActivityDetailVC.swift */; };
 		B372F53D202D0D4700DA22E9 /* LogoTransparent_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B372F53C202D0D4700DA22E9 /* LogoTransparent_small@2x.png */; };
 		B372F53F202D2CDB00DA22E9 /* user-silhouette@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B372F53E202D2CDB00DA22E9 /* user-silhouette@2x.png */; };
 		B372F541202D2DD900DA22E9 /* man-user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B372F540202D2DD800DA22E9 /* man-user@2x.png */; };
@@ -54,7 +54,8 @@
 		B3FEB36C20488A2F00BC04A6 /* ExploreTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEB36B20488A2F00BC04A6 /* ExploreTVController.swift */; };
 		B3FEB36E2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEB36D2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift */; };
 		B3FEB3712048AD6A00BC04A6 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEB3702048AD6A00BC04A6 /* Activity.swift */; };
-		B3FEB3732048BD7800BC04A6 /* CreateEvent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FEB3722048BD7800BC04A6 /* CreateEvent.storyboard */; };
+		B3FEB3732048BD7800BC04A6 /* CreateActivity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FEB3722048BD7800BC04A6 /* CreateActivity.storyboard */; };
+		B3FEB3752048D4A600BC04A6 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FEB3742048D4A500BC04A6 /* list@2x.png */; };
 		BBA01F3CD129F78FEEEC08F9 /* Pods_Want2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F04AE27B24F5803E00B9E0 /* Pods_Want2.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,7 +102,7 @@
 		B323B4AB202D08A300171E82 /* explore@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "explore@2x.png"; sourceTree = "<group>"; };
 		B323B4C2202D0B2200171E82 /* LogoTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoTransparent.png; sourceTree = "<group>"; };
 		B358A3C720373CCB008C9FBC /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
-		B371B787203779B400B7BC09 /* EventDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailVC.swift; sourceTree = "<group>"; };
+		B371B787203779B400B7BC09 /* HomeActivityDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeActivityDetailVC.swift; sourceTree = "<group>"; };
 		B372F53C202D0D4700DA22E9 /* LogoTransparent_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LogoTransparent_small@2x.png"; sourceTree = "<group>"; };
 		B372F53E202D2CDB00DA22E9 /* user-silhouette@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-silhouette@2x.png"; sourceTree = "<group>"; };
 		B372F540202D2DD800DA22E9 /* man-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "man-user@2x.png"; sourceTree = "<group>"; };
@@ -112,7 +113,8 @@
 		B3FEB36B20488A2F00BC04A6 /* ExploreTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTVController.swift; sourceTree = "<group>"; };
 		B3FEB36D2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityWithPromoPicTVCell.swift; sourceTree = "<group>"; };
 		B3FEB3702048AD6A00BC04A6 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
-		B3FEB3722048BD7800BC04A6 /* CreateEvent.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateEvent.storyboard; sourceTree = "<group>"; };
+		B3FEB3722048BD7800BC04A6 /* CreateActivity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateActivity.storyboard; sourceTree = "<group>"; };
+		B3FEB3742048D4A500BC04A6 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +155,7 @@
 				B30C86662030EC3A004D654F /* ProfileVC.swift */,
 				B3A6396020375C2C00FC767B /* HotItemsTVController.swift */,
 				B3A6395C2037459600FC767B /* PhoneAuthVC.swift */,
-				B371B787203779B400B7BC09 /* EventDetailVC.swift */,
+				B371B787203779B400B7BC09 /* HomeActivityDetailVC.swift */,
 				B3FEB36B20488A2F00BC04A6 /* ExploreTVController.swift */,
 				B358A3C720373CCB008C9FBC /* CreateAccountVC.swift */,
 			);
@@ -195,7 +197,7 @@
 				B323B483202CE7F000171E82 /* MainTabViewController.swift */,
 				B323B493202CF0E500171E82 /* Helper.swift */,
 				B323B485202CE7F000171E82 /* Main.storyboard */,
-				B3FEB3722048BD7800BC04A6 /* CreateEvent.storyboard */,
+				B3FEB3722048BD7800BC04A6 /* CreateActivity.storyboard */,
 				B30C866A2030ED15004D654F /* Controllers */,
 				B30C866B2030ED1C004D654F /* Models */,
 				B30C86592030E6E3004D654F /* Designables */,
@@ -211,6 +213,7 @@
 		B323B497202D08A300171E82 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				B3FEB3742048D4A500BC04A6 /* list@2x.png */,
 				B372F53C202D0D4700DA22E9 /* LogoTransparent_small@2x.png */,
 				B323B498202D08A300171E82 /* arrow-down-sign-to-navigate.png */,
 				B323B499202D08A300171E82 /* home@2x.png */,
@@ -336,7 +339,8 @@
 				B323B48C202CE7F000171E82 /* LaunchScreen.storyboard in Resources */,
 				B323B4BB202D08A400171E82 /* target@2x.png in Resources */,
 				B323B489202CE7F000171E82 /* Assets.xcassets in Resources */,
-				B3FEB3732048BD7800BC04A6 /* CreateEvent.storyboard in Resources */,
+				B3FEB3732048BD7800BC04A6 /* CreateActivity.storyboard in Resources */,
+				B3FEB3752048D4A600BC04A6 /* list@2x.png in Resources */,
 				B372F53D202D0D4700DA22E9 /* LogoTransparent_small@2x.png in Resources */,
 				B323B4C3202D0B2200171E82 /* LogoTransparent.png in Resources */,
 				B323B4B8202D08A400171E82 /* profile-default-male@2x.png in Resources */,
@@ -440,7 +444,7 @@
 				B3A6395F2037576B00FC767B /* ActivityTVCell.swift in Sources */,
 				B3FEB36E2048AA5500BC04A6 /* ActivityWithPromoPicTVCell.swift in Sources */,
 				B3FEB36C20488A2F00BC04A6 /* ExploreTVController.swift in Sources */,
-				B371B788203779B400B7BC09 /* EventDetailVC.swift in Sources */,
+				B371B788203779B400B7BC09 /* HomeActivityDetailVC.swift in Sources */,
 				B30C86612030E6E4004D654F /* UIViewX.swift in Sources */,
 				B30C866F2031369C004D654F /* AgendaTVCell.swift in Sources */,
 				B323B494202CF0E500171E82 /* Helper.swift in Sources */,
