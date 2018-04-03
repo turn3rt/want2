@@ -319,7 +319,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Home" id="Vax-1X-cvT">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="YNd-Hn-vjz"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="YNd-Hn-vjz">
+                            <connections>
+                                <segue destination="AKZ-C1-DU6" kind="show" id="gGd-Ic-vXH"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bgb-u7-PZc" userLabel="First Responder" sceneMemberID="firstResponder"/>

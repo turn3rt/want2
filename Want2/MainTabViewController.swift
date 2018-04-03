@@ -20,8 +20,6 @@ class MainTabViewController: UITabBarController {
         super.viewDidLoad()
         
         
-        
-        
         if UIDevice().userInterfaceIdiom == .phone {
             switch UIScreen.main.nativeBounds.height {
             case 1136:
@@ -49,6 +47,13 @@ class MainTabViewController: UITabBarController {
         centerButton.backgroundColor = helper.primaryColor //UIColor.orange
         centerButton.layer.borderWidth = 3
         centerButton.layer.borderColor = helper.lightPrimaryColor.cgColor
+        
+        //shadows:
+        centerButton.layer.shadowColor = UIColor.black.cgColor
+        centerButton.layer.shadowRadius = 2
+        centerButton.layer.shadowOpacity = 0.3
+        centerButton.layer.shadowOffset = CGSize(width: 0, height: -1)
+        
         centerButton.addTarget(self, action: #selector(handleTouchTabbarCenter), for: .touchUpInside)
 
         self.view.insertSubview(centerButton, aboveSubview: self.tabBar)
